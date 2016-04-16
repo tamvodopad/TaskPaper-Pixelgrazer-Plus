@@ -20,6 +20,7 @@
 
 // Prject Colors
 @project-color: hsl(78, 44%, 57%);
+@subproject-color: hsl(14, 78%, 51%); 
 
 // Base colors -----------------------------------
 @text-color: @mono-1;
@@ -65,6 +66,18 @@ item[data-type="project"] {
     font-size: @user-font-size + 6;
     color: @project-color;
 }
+
+item[depth=2][data-type="project"] {
+    font-size: @user-font-size + 4;    
+} 
+
+item[depth=3][data-type="project"] {
+    font-size: @user-font-size + 3;    
+} 
+
+item[depth=4][data-type="project"] {
+    font-size: @user-font-size + 2;    
+} 
 
 item[data-type="task"] {    
 
