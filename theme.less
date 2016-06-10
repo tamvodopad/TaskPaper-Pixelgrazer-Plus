@@ -119,8 +119,10 @@ item[data-waiting] {
 item[data-search] {
     font-size: @user-font-size;
     font-style: normal;
-    font-weight: normal;    
+    font-weight: normal;
+    color: @mono-1;
     > run[tag] {        
+        color: @mono-1;
     }
 }
 item[data-done] {
@@ -157,3 +159,7 @@ run[tag] {
     color: @tag-color;
 }
 
+// Sidebar
+sidebar {
+    search-item-prefix: "🔍 ";
+}
