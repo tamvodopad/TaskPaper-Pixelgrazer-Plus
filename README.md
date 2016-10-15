@@ -1,6 +1,6 @@
-# Pixelgrazer-Plus for TaskPaper 3
+# Pixelgrazer-Plus for TaskPaper 3.5
 
-Theme for [TaskPaper 3](http://taskpaper.com) inspired on [Pixelgrazer theme for Task Paper 2 by @jpinnix](https://gist.github.com/jpinnix/468362).
+Theme for [TaskPaper 3.5](http://taskpaper.com) inspired on [Pixelgrazer theme for Task Paper 2 by @jpinnix](https://gist.github.com/jpinnix/468362).
 
 ![](https://raw.githubusercontent.com/tamvodopad/TaskPaper-Pixelgraze-Plus/master/preview.png)
 
@@ -16,8 +16,8 @@ Theme for [TaskPaper 3](http://taskpaper.com) inspired on [Pixelgrazer theme for
 
 ### Installation
 
-1. Copy `theme.less` file to TaskPaper 3 application folder. You can find TaskPaper 3 application folder by TaskPaper 3 menu: File > Open Application Folder. 
-2. Reopen TaskPaper 3 app.
+1. Copy `Pixelgrazer.less` file to TaskPaper 3 application StyleSheets folder. You can find TaskPaper 3 application StyleSheets folder by TaskPaper 3 menu: Window > StyleSheet > Open StyleSheet Folder. 
+2. Change TaskPaper StyleSheet by TaskPaper 3 menu: Window > StyleSheet > Pixelgrazer.less
 
 ## TODO
 
