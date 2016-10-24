@@ -52,6 +52,7 @@ editor {
     selection-background-color: @selection-color;
     guide-line-color: @guide-color;
     message-color: @message-color;
+    guide-line-width: 2;
 }
 
 item[collapsed] {
@@ -125,6 +126,8 @@ item[data-search] {
         color: @mono-1;
     }
 }
+
+
 item[data-done] {
     > run[content],
     > run[display] {
@@ -160,6 +163,6 @@ run[tag] {
 }
 
 // Sidebar
-sidebar {
-    search-item-prefix: "🔍 ";
+searchbar {
+    background-color: @selection-color;
 }
