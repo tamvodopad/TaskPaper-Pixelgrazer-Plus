@@ -1,6 +1,6 @@
 // Base -----------------------------------
+@user-font-size: 13;
 @base-font-size: 16;
-@user-font-size: $USER_FONT_SIZE - 3;
 @ui-scale: @user-font-size / @base-font-size;
 @font-family: "Helvetica";
 @font-family-header: "Helvetica Neue";
@@ -80,7 +80,7 @@ item[depth=4][data-type="project"] {
 } 
 
 item[data-type="task"] {    
-
+    font-size: @user-font-size;
 }
 item[data-type="note"] {
     color: @mono-2;
